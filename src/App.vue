@@ -14,8 +14,10 @@ export default defineComponent({
   name: 'App',
   components: {},
   setup() {
+    let k = 100
     return {
-      locale: zhCn
+      locale: zhCn,
+      k
     }
   }
 })
